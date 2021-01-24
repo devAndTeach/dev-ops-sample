@@ -1,7 +1,3 @@
-# python commands
-pip install -r requirements.txt
-python3 main.py
-
 # git commands
 git add --all
 git commit -a -m "Initial Commit Flask App"
