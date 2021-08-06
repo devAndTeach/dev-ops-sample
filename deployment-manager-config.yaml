@@ -26,8 +26,8 @@ resources:
           #!/bin/bash
           apt-get update
           apt-get install -y git python-pip python-dev build-essential
-          git clone https://github.com/drehnstrom/dev-ops-class.git
-          cd dev-ops-class
+          git clone https://github.com/devandteach/dev-ops-sample.git
+          cd dev-ops-sample
           pip install -r requirements.txt
           sed -i "s|port=8080|port=80|" main.py
           python main.py
